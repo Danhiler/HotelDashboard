@@ -1,0 +1,30 @@
+@import '../styles/vars';
+
+    .dashboard-component{
+        text-align: left;
+        flex-grow:1;
+        margin-bottom: 30px;
+    }
+    .component-description {
+        display:block;
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--color-steel-grey);
+    }
+    .component-value{
+        display:block;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: white;
+
+    }

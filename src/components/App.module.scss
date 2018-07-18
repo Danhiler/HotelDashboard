@@ -1,0 +1,24 @@
+@import '../styles/vars';
+
+.app :global {
+    .page-content {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 100px;
+        padding-left: 95px;
+        padding-right: 95px;
+        text-align: center;
+        background-color: #202b33;
+    }
+    .booking-dashboard {
+        display: flex;
+        flex-direction: row;
+    }
+.separation-line{
+    width: 100%;
+    height: 1px;
+    border: solid 1px #374148;
+}
+
+}
